@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weligama Roti Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Weligama Roti Shop</h1>
+        </div>
+    </header>
+
+    <section class="categories">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="drinks">Drinks</button>
+        <button class="filter-btn" data-category="pizza">Pizza</button>
+        <button class="filter-btn" data-category="salad">Salad</button>
+        <button class="filter-btn" data-category="spicy">Spicy</button>
+        <button class="filter-btn" data-category="sweets">Sweets</button>
+    </section>
+
+    <section class="menu-container">
+        <div class="menu-card" data-category="burger">
+            <img src="assert/img1.jpg" alt="Double Patty Veg Burger">
+            <h3>Double </h3>
+            <p>$40.00</p>
+        </div>
+        <div class="menu-card" data-category="burger">
+            <img src="assert/rice.jpg" alt="Chicken Burger">
+            <h3>Chicken Burger</h3>
+            <p>$17.56</p>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="assert/rice.jpg" alt="Pineapple Pizza">
+            <h3>Pineapple Pizza</h3>
+            <p>$24.50</p>
+        </div>
+        <div class="menu-card" data-category="salad">
+            <img src="assert/img1.jpg" alt="Green Salad">
+            <h3>Green Salad</h3>
+            <p>$45.00</p>
+        </div>
+        <div class="menu-card" data-category="burger">
+            <img src="assert/rice.jpg" alt="Chicken Burger">
+            <h3>Chicken Burger</h3>
+            <!-- <p>modal-description</p> -->
+            <p>$17.56</p>
+        </div>
+        
+        
+        <!-- Add more cards here -->
+          <!-- Modal Structure -->
+<div id="menu-modal" class="modal">
+  <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modal-image" src="" alt="Menu Item" style="width: 100%; border-radius: 10px; margin-bottom: 20px;">
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <p id="modal-price"></p>
+  </div>
+</div>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>1247/Plot No. 39, 15th Phase, Colony, Hyderabad</p>
+                <p>+91 987-654-3210</p>
+                <p>info@example.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
